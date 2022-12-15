@@ -13,7 +13,7 @@ public class MediaIdade {
         int media = (idade1 + idade2 + idade3) / 3;
         System.out.println("A média da idade é: " + media);
 
-        if (media >= 61 && media <= 70) {
+        if (media >= 62 && media <= 70) {
 
             System.out.print("Idosa");
         } else if (media >= 7 && media >= 22) {
