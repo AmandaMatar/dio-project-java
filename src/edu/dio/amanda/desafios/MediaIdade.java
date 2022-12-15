@@ -10,16 +10,17 @@ public class MediaIdade {
         int idade1 = leitor.nextInt();
         int idade2 = leitor.nextInt();
         int idade3 = leitor.nextInt();
-        int media = (idade1 + idade2 + idade3) / 3;
+        double media = (idade1 + idade2 + idade3) / 3;
         System.out.println("A média da idade é: " + media);
 
-        if (media >= 62 && media <= 70) {
+        if (media > 0 && media <= 25) {
 
-            System.out.print("Idosa");
-        } else if (media >= 7 && media >= 22) {
+            System.out.print("Turma Jovem");
+        } else if (media > 25 && media <= 60) {
 
-            System.out.print("Jovem");
-
+            System.out.print("Turma Adulta");
+        } else {
+            System.out.println("Turma Idosa");
         }
     }
 }
